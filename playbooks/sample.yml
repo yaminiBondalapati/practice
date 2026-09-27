@@ -1,0 +1,7 @@
+---
+- name: Sample playbook
+  hosts: all
+  gather_facts: yes
+  tasks:
+    - name: Check connectivity
+      ping:
