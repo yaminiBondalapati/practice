@@ -5,3 +5,6 @@
   tasks:
     - name: Check connectivity
       ping:
+    - name: Print hostname
+      debug:
+        msg: "Host is {{ inventory_hostname }}" 
